@@ -1,0 +1,27 @@
+{
+  "name": "sldc-web-app",
+  "version": "1.0.0",
+  "description": "Simple boilerplate web app for salesforce VF.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "deploy": "gulp deploy",
+    "minify": "gulp minifyAll",
+    "zip": "gulp zip",
+    "server": "gulp browserSync"
+  },
+  "author": "Samuy93",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.0",
+    "gulp-zip": "^3.2.0",
+    "jsforce": "^1.7.0",
+    "run-sequence": "^1.2.2",
+    "browser-sync": "^2.14.0"
+  }
+}
