@@ -2,7 +2,7 @@
 Simple boilerplate for a web app and develop locally within VF.
 
 # login.config.js
-Use this file for login to salesforce org.
+Use this file for login credentials to salesforce org.
 
 # sr.config.js
 Use this file for specify details of the static resource before deploy to salesforce.
